@@ -43,7 +43,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .container{
 	padding: 0 108px;
-	border: 1px solid red;
 }
 .header__inner{
 	display: flex;
@@ -498,10 +497,101 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	color: rgba(255, 255, 255, 1);
     transform: translate(379px, -53px);
 }
+.footer{
+	background-color: #1E252B;
+	border-top: 0.5px solid rgba(255, 255, 255, 0.15);
+	margin: 240px 0 0 0;
+}
+.footer__inner{
+	display: flex;
+	justify-content: space-between;
+}
+.footer__antools{
+	display: flex;
+	flex-direction: column;
+}
+.footer__antools-2021{
+	margin-top: 25px;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(255, 255, 255, 0.9);
+}
+.footer__antools-text{
+	margin-top: 21px;
+	font-size: 14px;
+	line-height: 25px;
+	width: 260px;
+	height: 75px;
+	color: rgba(255, 255, 255, 0.55);
+}
+.footer__contact-us{
+	font-size: 20px;
+	line-height: 30px;
+	color: rgba(255, 255, 255, 0.9);
+}
+.footer__contact-number{
+	display: block;
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(255, 255, 255, 0.55);
 
+}
+.footer__contact-building{
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(255, 255, 255, 0.55);
+}
+.footer__contac-mail{
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(255, 255, 255, 0.55);
+}
+.footer__h4-ct{
+	font-size: 20px;
+	line-height: 30px;
+	color: rgba(255, 255, 255, 0.9);
+}
+.footer__h4-design{
+	display: block;
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(255, 255, 255, 0.55);
+}
+.footer__h4-dv{
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(255, 255, 255, 0.55);
+}
+.footer__company-info{
+	font-size: 20px;
+	line-height: 30px;
+	color: rgba(255, 255, 255, 0.9);
 
-
-
+}
+.footer__company-us{
+	display: block;
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(255, 255, 255, 0.55);
+}
+.footer__company-buld{
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 24px;
+	color:rgba(255, 255, 255, 0.55);
+}
+.footer__company-emael{
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(255, 255, 255, 0.55);
+}
 
 
 
