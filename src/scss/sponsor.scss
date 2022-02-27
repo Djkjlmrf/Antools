@@ -1,0 +1,148 @@
+.sponsor {
+	background-color: #1e252b;
+}
+.sponsor__section {
+	margin: 200px 0 0 0;
+	border: 2px solid white;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("/img/bg_sponsor.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	@media (max-width: 1399.98px) {
+		margin-top: 150px;
+	}
+	@media (max-width: 1199.98px) {
+		margin-top: 100px;
+	}
+	@media (max-width: 767.98px) {
+		margin-top: 60px;
+	}
+}
+.sponsor__title {
+	padding-top: 50px;
+	font-size: 24px;
+	line-height: 30px;
+	color: rgba(255, 255, 255, 0.8);
+	@media (max-width: 1399.98px) {
+		padding-top: 40px;
+	}
+	@media (max-width: 1199.98px) {
+		padding-top: 30px;
+		font-size: 22px;
+	}
+	@media (max-width: 991.98px) {
+		padding-top: 15px;
+		font-size: 20px;
+	}
+	@media (max-width: 767.98px) {
+		font-size: 16px;
+	}
+}
+.sponsor__section-btn {
+	display: flex;
+	margin: 55px 83px 60px 83px;
+	@media (max-width: 1199.98px) {
+		margin: 40px 0 40px 0;
+		justify-content: space-between;
+		width: 100%;
+		padding: 0 25px;
+	}
+	@media (max-width: 575.98px) {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+.sponsor__section-link {
+	margin-right: 103px;
+	display: block;
+	@media (max-width: 1399.98px) {
+		margin-right: 65px;
+	}
+	@media (max-width: 1199.98px) {
+		margin-right: 0px;
+	}
+}
+.sponsor__section-logo {
+	@media (max-width: 1199.98px) {
+		max-width: 100% !important;
+		width: 155px;
+	}
+	@media (max-width: 991.98px) {
+		width: 130px;
+	}
+	@media (max-width: 767.98px) {
+		width: 100px;
+	}
+	@media (max-width: 575.98px) {
+		width: 70px;
+	}
+}
+.sponsor__microsoft {
+	width: 193px;
+	height: 42px;
+	@media (max-width: 991.98px) {
+		width: 140px;
+		height: 42px;
+	}
+	@media (max-width: 767.98px) {
+		width: 108px;
+		height: 42px;
+	}
+	@media (max-width: 575.98px) {
+		width: 75px;
+		height: 28px;
+	}
+}
+.sponsor__google {
+	width: 157px;
+	height: 51px;
+	@media (max-width: 991.98px) {
+		width: 140px;
+		height: 51px;
+	}
+	@media (max-width: 767.98px) {
+		width: 108px;
+		height: 51px;
+	}
+	@media (max-width: 575.98px) {
+		width: 75px;
+		height: 28px;
+	}
+}
+.sponsor__slack {
+	width: 194px;
+	height: 49px;
+	@media (max-width: 991.98px) {
+		width: 135px;
+		height: 49px;
+	}
+	@media (max-width: 767.98px) {
+		width: 106px;
+		height: 49px;
+	}
+	@media (max-width: 575.98px) {
+		width: 75px;
+		height: 28px;
+	}
+}
+.sponsor__wordpress {
+	width: 194px;
+	height: 44px;
+	margin-right: 0;
+	@media (max-width: 991.98px) {
+		width: 135px;
+		height: 44px;
+	}
+	@media (max-width: 767.98px) {
+		width: 106px;
+		height: 44px;
+	}
+	@media (max-width: 575.98px) {
+		width: 70px;
+		height: 28px;
+	}
+}

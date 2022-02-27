@@ -1,0 +1,247 @@
+.footer{
+	background-color: #1E252B;
+	border-top: 0.5px solid rgba(255, 255, 255, 0.15);
+	margin: 240px 0 0 0;
+	@media (max-width: 575.98px){
+		margin-top: 0;
+	}
+}
+.footer__inner{
+	display: flex;
+	@media (max-width: 767.98px) {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	
+
+}
+.footer__antools{
+	display: flex;
+	flex-direction: column;
+	padding-top: 70px;
+	@media (max-width: 1199.98px) {
+		padding-top: 30px;
+	}
+}
+.footer__antools-icon{
+	@media (max-width: 767.98px) {
+		width: 70px;
+	}
+}
+.footer__antools-2021{
+	margin-top: 25px;
+	@include text1(16px, 24px, $color-1);
+	@media (max-width: 1199.98px) {
+		margin-top: 15px;
+		font-size: 14px;
+	}
+	@media (max-width: 767.98px) {
+		margin: 0;
+		font-size: 12px;
+	}
+}
+.footer__antools-text{
+	margin-top: 21px;
+	@include text1(14px, 25px,#ffffff8c );
+	width: 260px;
+	height: 75px;
+	@media (max-width: 1199.98px) {
+		margin-top: 5px;
+		font-size: 12px;
+		line-height: 20px;
+	}
+	@media (max-width: 767.98px) {
+		margin-top: 0;
+		font-size: 10px;
+		line-height: 14px;
+	}
+}
+.footer__contact{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-top: 70px;
+	@media (max-width: 1199.98px) {
+		padding-top: 30px;
+	}
+	@media (max-width: 767.98px) {
+		padding-top: 20px;
+	}
+}
+.footer__contact-list{
+	margin-left: 158px;
+	@media (max-width: 1199.98px) {
+		margin-left: 30px;
+	}
+	@media (max-width: 767.98px) {
+		margin-left: 0;
+	}
+}
+.footer__contact-us{
+	@include text1(20px, 30px,$color-1 );
+	@media (max-width: 991.98px) {
+		font-size: 18px;
+	}
+	@media (max-width: 767.98px) {
+		font-size: 14px;
+	}
+}
+
+.footer__contact-number{
+	display: block;
+	margin-top: 20px;
+	@include text1( 16px, 24px,#ffffff8c );
+	@media (max-width: 991.98px) {
+		font-size: 12px;
+	}
+	@media (max-width: 767.98px) {
+		margin-top: 5px;
+		line-height: 20px;
+		font-size: 11px;
+	}
+
+}
+.footer__contact-building{
+	margin-top: 10px;
+	@include text1(16px,24px,#ffffff8c );
+	@media (max-width: 991.98px) {
+		font-size: 12px;
+	}
+	@media (max-width: 767.98px) {
+		line-height: 20px;
+		font-size: 11px;
+	}
+}
+.footer__contac-mail{
+	margin-top: 10px;
+	@include text1(16px,24px,#ffffff8c );
+	@media (max-width: 991.98px) {
+		font-size: 12px;
+	}
+	@media (max-width: 767.98px) {
+		line-height: 20px;
+		font-size: 11px;
+	}
+}
+.footer__h4{
+	margin: 0 115px;
+	@media (max-width: 1199.98px) {
+		margin: 0 30px;
+	}
+	@media (max-width: 767.98px) {
+		margin: 0 50px;
+	}
+	@media (max-width: 575.98px) {
+		margin: 0 7px;
+	}
+}
+.footer__h4-ct{
+	@include text1(20px,30px,$color-1 );
+	@media (max-width: 991.98px) {
+		font-size: 18px;
+	}
+	@media (max-width: 767.98px) {
+		font-size: 14px;
+	}
+}
+.footer__h4-design{
+	display: block;
+	margin-top: 20px;
+	@include text1(16px, 24px, #ffffff8c );
+	@media (max-width: 991.98px) {
+		font-size: 12px;
+	}
+	@media (max-width: 767.98px) {
+		margin-top: 5px;
+		font-size: 11px;
+		line-height: 20px;
+	}
+}
+.footer__h4-dv{
+	margin-top: 10px;
+	@include text1(16px, 24px, #ffffff8c);
+	@media (max-width: 991.98px) {
+		font-size: 12px;
+	}
+	@media (max-width: 767.98px) {
+		font-size: 11px;
+		line-height: 20px;
+	}
+}
+.footer__company-info{
+	@include text1(20px, 30px, $color-1);
+	@media (max-width: 991.98px) {
+		font-size: 18px;
+	}
+	@media (max-width: 767.98px) {
+		font-size: 14px;
+	}
+
+}
+.footer__company-us{
+	@include test(block, 20px);
+	@include text1(16px, 24px,#ffffff8c );
+	@media (max-width: 991.98px) {
+		font-size: 12px;
+	}
+	@media (max-width: 767.98px) {
+		font-size: 11px;
+		line-height: 20px;
+		margin-top: 5px;
+	}
+}
+.footer__company-buld{
+	margin-top: 10px;
+	@include text1(16px, 24px, #ffffff8c );
+	@media (max-width: 991.98px) {
+		font-size: 12px;
+	}
+	@media (max-width: 767.98px) {
+		font-size: 11px;
+		line-height: 20px;
+	}
+}
+.footer__company-emael{
+	margin-top: 10px;
+	@include text1(16px, 24px,#ffffff8c );
+	font-size: 12px;
+	@media (max-width: 767.98px) {
+		font-size: 11px;
+		line-height: 20px;
+	}
+
+}
+// .footer__contact-ul > li a{
+// 	color: red;
+// }
+// .footer__contact-ul{
+// 	li{
+// 		a{
+// 			color: green;
+// 		}
+// 	}
+// }
+// .footer__contact-ul{
+// 	li{
+// 		&:nth-child(2){
+// 			a{
+// 				color: red;
+// 			}
+// 		}
+// 		a{
+// 			color: green ; 
+			
+// 		}
+// 	}
+// }
+
+
+
+
+
+
+// @media (max-width: 1399.98px) {}
+// @media (max-width: 1199.98px) {}
+// @media (max-width: 991.98px) {}
+// @media (max-width: 767.98px) {}
+// @media (max-width: 575.98px) {}

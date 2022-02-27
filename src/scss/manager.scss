@@ -1,0 +1,219 @@
+.manager {
+	background-color: #1e252b;
+	background-image: url(/img/“.png);
+	background-repeat: no-repeat;
+	background-position: 699px 278px;
+	@media (max-width: 991.98px) {
+		background-position: 316px 0;
+	}
+	@media (max-width: 767.98px) {
+		background-position: 264px 40px;
+	}
+	@media (max-width: 575.98px) {
+		background: none;
+	}
+}
+.manager__inner {
+	margin-top: 200px;
+	@media (max-width: 1199.98px) {
+		margin-top: 150px;
+	}
+	@media (max-width: 991.98px) {
+		margin-top: 90px;
+		height: 330px;
+	}
+	@media (max-width: 575.98px) {
+		margin-top: 50px;
+	}
+}
+.manager__inner-right{
+	@media (max-width: 575.98px) {
+		padding: 0;
+	}
+}
+.manager__inner-card {
+	display: flex;
+	justify-content: space-between;
+	@media (max-width: 575.98px) {
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+	}
+}
+.manager__inner-arrowleft {
+	padding: 196px 107px 304px 0;
+	border-radius: 8px;
+	@media (max-width: 1199.98px) {
+		padding: 196px 30px 304px 0;
+	}
+	@media (max-width: 991.98px) {
+		padding: 90px 10px 304px 0;
+	}
+	@media (max-width: 575.98px) {
+		padding: 0;
+		position: absolute;
+		left: 0;
+		top: 50%;
+	}
+}
+.manager__inner-btnleft {
+	background: inherit;
+}
+.manager__inner-tittle {
+	margin: 0 57px 101px 0;
+	width: 392px;
+	height: 492px;
+	@media (max-width: 1199.98px) {
+		margin: 0 27px 50px 0;
+	}
+	@media (max-width: 991.98px) {
+		margin: 0;
+	}
+	@media (max-width: 575.98px){
+		width: auto;
+		height: auto;
+	}
+}
+.manager__inner-name {
+	display: flex;
+	flex-direction: column;
+	width: 265px;
+	height: 91px;
+	border-radius: 8px;
+	background-image: url(/img/fonrichard.png);
+	transform: translate(135px, -122px);
+	@media (max-width: 991.98px) {
+		transform: translate(62px, -51px);
+		width: 178px;
+		height: 48px;
+	}
+	@media (max-width: 767.98px) {
+		width: 140px;
+	}
+	@media (max-width: 575.98px) {
+		width: 114px;
+		transform: translate(84px, -45px);
+	}
+}
+.manager__inner-ronald {
+	@media (max-width: 991.98px) {
+		width: 250px;
+		height: 300px;
+	}
+	@media (max-width: 575.98px) {
+		width: 170px;
+		height: 200px;
+		transform: translate(0);
+	}
+}
+.manager__inner-richards {
+	font-size: 26px;
+	color: rgba(255, 253, 253, 0.78);
+	line-height: 39px;
+	margin: 10px 22px 2px 23px;
+	@media (max-width: 991.98px) {
+		font-size: 14px;
+		line-height: 14px;
+	}
+	@media (max-width: 575.98px) {
+		font-size: 12px;
+		line-height: 12px;
+		margin: 10px 9px 1px 8px;
+	}
+}
+.manager__inner-manager {
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(255, 253, 253, 0.55);
+	padding: 0 103px 16px 23px;
+	@media (max-width: 991.98px) {
+		font-size: 14px;
+		line-height: 18px;
+		padding: 0 10px 3px 23px;
+	}
+	@media (max-width: 575.98px) {
+		padding: 0 0 3px 9px;
+		font-size: 12px;
+		line-height: 18px;
+	}
+}
+.manager__inner-btnright {
+	background: inherit;
+}
+.manager__inner-logo {
+	transform: rotate(0.5turn);
+}
+.manager__inner-logo:hover {
+	background-color: #ff6e30;
+}
+.manager__inner-arrowright {
+	padding: 196px 0 304px 108px;
+	border-radius: 8px;
+	@media (max-width: 1199.98px) {
+		padding: 196px 0 304px 30px;
+	}
+	@media (max-width: 991.98px) {
+		padding: 90px 0 304px 22px;
+	}
+	@media (max-width: 575.98px) {
+		padding: 0;
+		position: absolute;
+		top: 40%;
+		right: 0;
+
+	}
+}
+.manager__inner-text {
+	max-width: 393px;
+	height: 180px;
+	font-size: 14px;
+	line-height: 30px;
+	color: rgba(255, 255, 255, 0.78);
+	padding-top: 128px;
+	@media (max-width: 991.98px) {
+		padding-top: 30px;
+	}
+	@media (max-width: 767.98px) {
+		font-size: 12px;
+		line-height: 15px;
+		padding-top: 72px;
+	}
+	@media (max-width: 575.98px) {
+		font-size: 11px;
+		max-width: 250px;
+		padding: 0;
+		text-align: center;
+		height: auto;
+	}
+
+}
+.manager__link {
+	display: flex;
+	justify-content: center;
+	@media (max-width: 575.98px) {
+		margin-top: 50px;
+	}
+}
+.manager__link-btn {
+	width: 44px;
+	height: 6px;
+	background: #283036;
+	border-radius: 4px;
+	margin-right: 18px;
+	&:last-child{
+		margin-right: 0;
+	}
+	@media (max-width: 767.98px) {
+		width: 30px;
+	}
+	
+}
+.manager__link-btn:hover {
+	background-color: #ff6e30;
+}
+
+// @media (max-width: 1399.98px) {}
+// @media (max-width: 1199.98px) {}
+// @media (max-width: 991.98px) {}
+// @media (max-width: 767.98px) {}
+// @media (max-width: 575.98px) {}
